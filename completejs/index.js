@@ -272,3 +272,100 @@ if(tomr == 'rain'){
 
 */
 
+
+/*
+WRITE A PROGRAM TO IMPLEMENTOR CHECK IF THE YEAR IS LEAP OR NOT
+
+
+var year1 = 2100;
+if (year1%4===0) {
+  if (year1%100 === 0) {
+    if (year1%400 ===0) {
+      console.log("It is a leap year");
+    }else{
+      console.log("It is not a leap year");
+    }
+  }else{
+    console.log("It is a leap year");
+  }
+}else{
+  console.log("It is not a leap year");
+}
+
+
+*/
+
+
+/*
+What is truthy and falsy in javascript ???
+
+we have total 5 falsy value along with false**
+i.e.
+0,null,"",NaN,undefined
+
+
+if(score = 0){
+  console.log("We lose the game\n");
+}else{
+  console.log("We won the game\n");  //this will be executed only
+}
+
+
+
+*/
+
+
+
+/*
+Ternary operator
+
+var age = 10;
+(age>=18)?console.log("You can vote"):console.log("you cannot vote");
+
+*/
+
+
+/*
+Switch case in javascript
+
+Evaluates an expression, matching the expression's value to a 
+case clause, and executes statements associated with that case.
+
+Important terms to know:->
+
+#break
+Terminates the current loop, switch, or label 
+statement and transfers 
+program control to the statement following the terminated statement.
+
+
+#continue
+Terminates execution of the statements in the current iteration of the 
+current or labeled loop, and continues execution of the loop with the 
+next iteration.
+
+var length = 3,breadth = 4;
+var side = 4;
+var PI = 3.142;
+var radius = 10;
+
+var input = "circle";
+switch (input) {
+  case "circle":
+    console.log("The area of the circle is "+(PI*(radius**2)));
+    break;
+
+  case "rectangle":
+    console.log("The area of rectangle is "+(length*breadth));
+    break;
+
+  case "square":
+    console.log("The area of square is "+(side**2));
+    break;
+
+  default:
+    console.log("plz enter the valid data");
+    break;
+}
+
+*/
