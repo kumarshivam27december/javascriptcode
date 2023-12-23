@@ -20,6 +20,14 @@
 
 
 
+
+
+
+
+
+
+
+
 /*
 what is NaN->not a number
 nan is a property of global variable
@@ -51,6 +59,16 @@ console.log(13*7)
 console.log(13/7)
 console.log(13%7)
 */
+
+
+
+
+
+
+
+
+
+
 
 /*
 
@@ -85,6 +103,12 @@ the expression is evaluated using the new value of the variable.
 
 
 */
+
+
+
+
+
+
 
 
 
@@ -127,6 +151,12 @@ console.log(a!=b);
 
 
 
+
+
+
+
+
+
 /*
 Logical operators
 Logical operators are typically used with Boolean (logical) values; 
@@ -162,9 +192,25 @@ console.log(!true);
 */
 
 
+
+
+
+
+
+
 // console.log(3**3)//3 to the power of three //exponentition operator
 //what will be the output when we add a number to the string ?
 // console.log(7 + "Hello world"); // it concatenate 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -193,6 +239,14 @@ console.log(myName + " bahadur Thapa");
 
 
 
+
+
+
+
+
+
+
+
 /*
 write a a programme to swap 2 numbers
 code :->
@@ -205,6 +259,13 @@ console.log("The value of a is "+ a);
 console.log( "The value of b is "+ b);
 
 */ 
+
+
+
+
+
+
+
 
 
 
@@ -222,6 +283,11 @@ console.log( "The value of b is "+ b);
 
 
 */
+
+
+
+
+
 
 
 
@@ -245,6 +311,11 @@ console.log(num1===num2); //false
 
 
 */
+
+
+
+
+
 
 
 /*
@@ -273,6 +344,13 @@ if(tomr == 'rain'){
 */
 
 
+
+
+
+
+
+
+
 /*
 WRITE A PROGRAM TO IMPLEMENTOR CHECK IF THE YEAR IS LEAP OR NOT
 
@@ -296,6 +374,13 @@ if (year1%4===0) {
 */
 
 
+
+
+
+
+
+
+
 /*
 What is truthy and falsy in javascript ???
 
@@ -316,6 +401,11 @@ if(score = 0){
 
 
 
+
+
+
+
+
 /*
 Ternary operator
 
@@ -323,6 +413,14 @@ var age = 10;
 (age>=18)?console.log("You can vote"):console.log("you cannot vote");
 
 */
+
+
+
+
+
+
+
+
 
 
 /*
@@ -367,5 +465,199 @@ switch (input) {
     console.log("plz enter the valid data");
     break;
 }
+
+*/
+
+
+
+
+
+
+
+
+
+
+/*LOOPS
+
+While Loop Statement
+The while statement creates a loop that executes a specified statement 
+as long as the test condition evaluates to true. 
+
+var num=20;
+// block scope 
+while(num <= 10){
+  console.log(num); //infinte loop
+  num++;
+}
+
+
+#while loops
+
+var num1 = 1;
+while(num1<=10){
+  console.log(num1);
+  num1++;
+}
+
+var num2 = 4;
+var i = 1;
+while(i<=10){
+  console.log(num2 + " * "+i+" = "+(num2*i));
+  i++;
+}
+
+*/
+
+
+
+
+
+
+
+
+/*
+#for loops
+var num = 4;
+for( i = 1;i<=10;i++){
+  console.log(num," * ",i," = ",(num*i));
+}
+
+
+For Loop 
+
+for(var num = 0; num <= 10; num++){
+    debugger;
+    console.log(num);
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+#Do-while loop
+It at least print 1 condition 
+
+
+do{
+  console.log("Hello world");//It will print it once
+}while(false)//condition false hence execute
+
+
+
+Do-While Loop Statement
+
+var num = 20;
+do{
+  debugger;
+  console.log(num); //infinte loop
+  num++;
+}while(num <= 10);
+
+*/
+
+
+
+
+
+
+/*
+
+// for-in loop
+
+var names = "lovelyprofessionaluniversity";
+var size = 0;
+for(let val of names){
+    size++;
+}
+console.log(size);
+console.log(names.length);
+
+
+*/
+
+
+
+
+   
+
+
+
+/*
+for-of loop for objects
+
+
+
+let my_facebook_id = {
+  names : "shivu",
+  emails : "shivu@gmail.com",
+  age : 20,
+  address:"India"
+}
+
+for (let i in my_facebook_id) {
+  console.log("key = ",i," Value = ",my_facebook_id[i]);
+}
+
+
+
+*/
+
+
+/*
+
+#challenge Time 
+JavaScript program to print table for given number (8)?
+
+output :  8 * 1 = 8 
+          8 * 2 = 16(8*2)
+         => 8 * 10 = 80
+
+for(var num = 1; num<= 10; num++){
+    var tableOf = 12;  
+  console.log(tableOf + " * " + num + " = " + tableOf * num);
+}
+
+
+*/
+
+
+/*
+Function Definition 
+
+Before we use a function, we need to define it. 
+
+A function definition (also called a function declaration, or function statement) 
+consists of the function keyword, followed by:
+
+The name of the function.
+A list of parameters to the function, enclosed in parentheses and separated by commas.
+The JavaScript statements that define the function, enclosed in curly brackets, {...}.
+ 
+
+*/
+
+
+
+
+
+
+
+/*
+var funExp = function(a,b){
+  return total = a+b;
+}
+
+var sum = funExp(15,15);
+var sum1 = funExp(20,15);
+
+console.log(sum == sum1 );
 
 */
