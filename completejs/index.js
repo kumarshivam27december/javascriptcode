@@ -832,8 +832,232 @@ console.log('the sum of two no is ' + funExp );
 
 A function without the name is your anonymous function
 
+var funcExpr = function(a,b){
+  return total = a+b;
+}
+var sum = funcExpr(12,13);
+console.log("Sum is "+ sum);
 
 */
-var sum = function(a,b){
-  
+
+
+/*
+Templete literals  (Template Strings)
+
+var num = 4;
+for (let i = 1; i <= 10; i++) {
+ console.log(`${i} times ${num} is ${(i)*(num)}`);
 }
+
+
+*/
+
+
+
+
+
+
+
+/*
+
+// 6->Anonymous Function
+
+// A function expression is similar to and has the same syntax 
+// as a function declaration One can define "named" 
+// function expressions (where the name of the expression might 
+// be used in the call stack for example) 
+// or "anonymous" function expressions.
+
+
+// var funExp = function(a,b){
+//   return total = a+b;
+// }
+
+// var sum = funExp(15,15);
+// var sum1 = funExp(20,15);
+
+// console.log(sum > sum1 );
+
+
+
+
+
+
+// Now It's Time for Modern JavaScript 
+
+//  Features of ECMAScript 2015 also known as ES6 
+
+// 1️ LET VS CONST  vs  VAR
+
+// var myName = "thapa technical";
+// console.log(myName);
+
+// myName = "vinod thapa";
+// console.log(myName);
+
+// let myName = "thapa technical";
+// console.log(myName);
+
+// myName = "vinod thapa";
+// console.log(myName);
+
+
+// const myName = "thapa technical";
+// console.log(myName);
+
+// myName = "vinod thapa";
+// console.log(myName);
+
+
+
+// function biodata() {
+//   const myFirstName = "Vinod";
+//   console.log(myFirstName);
+
+//   if(true){
+//     const myLastName = "thapa";
+//   }
+
+//   // console.log('innerOuter ' + myLastName);
+// }
+
+// console.log(myFirstName);
+
+// biodata();
+
+
+// var => Function scope 
+// let and const => Block Scope 
+
+
+
+
+
+// 2️ Template literals (Template strings) 
+
+// JavaScript program to print table for given number (8)?
+
+// output :  8 * 1 = 8 
+        //   8 * 2 = 16(8*2)
+        //  => 8 * 10 = 80
+
+// for(let num = 1; num<= 10; num++){
+//     let tableOf = 12;  
+//   // console.log(tableOf + " * " + num + " = " + tableOf * num);
+//   console.log( ` ${tableOf} * ${num} = ${tableOf * num}` );
+// }
+
+
+
+
+// 3  Default Parameters
+// Default function parameters allow named parameters to be 
+// initialized with default values if no value or undefined is passed.
+
+// function mult(a,b=5){
+//   return a*b;
+// }
+
+// console.log(mult(3));
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+const multiplication = (a,b) => `Multiplication of ${a} and ${b} are ${a*b}`;
+
+var num = multiplication(5,2);
+console.log(num);
+
+*/
+
+
+
+
+/*
+
+ Section 7 Arrays in JavaScript 
+
+When we use var, we can stored only one value at a time. 
+var friend1 = 'ramesh';
+var friend2 = 'arjun';
+var friend3 = 'vishal';
+
+var myFriends = ['ramesh',22,male,'arjun',20,male,'vishal',true, 52];
+
+When we feel like storing multiple values in one variable then 
+instead of var, we will use an Array.
+
+In JavaScript, we have an Array class, and 
+arrays are the prototype of this class. 
+
+example 
+
+
+var myFriends = ['ramesh',22,male,'arjun',20,male,'vishal',true, 52];
+
+
+*/
+
+
+
+
+
+
+/*
+Traversal in an array
+
+
+navigate through an array
+
+if we want to get the single data at a time  and also 
+if we want to change the data 
+
+
+
+var myFriends = ["f1","f2","f3","f4","f5"];
+console.log(myFriends[myFriends.length-1]);
+
+navigate through an array
+
+if we want to get the single data at a time  and also 
+if we want to change the data 
+
+
+for(var i = 0;i<myFriends.length;i++){
+  console.log(myFriends[i]);
+}
+
+After ES6 we have for..in and for..of loop too 
+
+
+for(let elements in myFriends){
+  console.log(myFriends[elements]);
+}
+
+for(let elements in myFriends){
+  console.log(myFriends[elements]);
+}
+
+
+
+*/
+
+var myFriends = ["f1","f2","f3","f4","f5"];
+myFriends.forEach(function(){
+  
+})
